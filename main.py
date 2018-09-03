@@ -2,7 +2,7 @@
 ##################################################################################
 # Program: Point of sales (POS) system
 #
-# Purpose: POS system for Young Chow Cafe
+# Purpose: POS system
 #
 # Usage: python pos.py
 ##################################################################################
@@ -33,6 +33,11 @@ if __name__ == '__main__':
 			# enter items
 			# paid or unpaid?
 		elif main_menu_selection == '2':	# ticket lookup
+			# prompt for ticket number
+			# prompt for ticket options
+				# change service option
+				# add or delete items
+				# mark as paid
 		elif main_menu_selection == '3':	# void ticket
 		elif main_menu_selection == '4':	# management menu
 		else:								# catch for invalid input
